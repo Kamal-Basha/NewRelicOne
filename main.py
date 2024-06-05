@@ -48,6 +48,6 @@ async def get_hello_world():
 if __name__ == "__main__":
     import uvicorn
 
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="172.31.35.84", port=8001)
 
     logging.shutdown()
